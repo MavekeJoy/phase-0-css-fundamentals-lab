@@ -1,5 +1,46 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+h1{
+  text-align: center;
+}
+img{
+  display: block;
+  margin: auto;
+  font-size: 900px;
+}
+nav{
+  text-align: center;
+}
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: gray;
+}
+figcaption{
+   padding-left: 600px;
+}
+
+#featured-property  p{
+  padding-left: 500px;
+  padding-right: 500px;
+  line-height: 1.6em;
+  
+}
+#details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  background-color: red;
+  padding: 18px 0;
+}
+
+#details div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div h3{
+  margin-bottom: 14px;
+  text-align: center;
+}
+#details div p{
+  text-align: center;
 }
